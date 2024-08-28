@@ -22,6 +22,7 @@ AppFactory::setContainer($container);
 
 $app = AppFactory::create();
 
-$app->get('/', 'App\Controller\indexController:homepage');
+$app->get('/', 'App\Controller\AlbumsController:default');
+
 
 $app->run();
