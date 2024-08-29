@@ -1,131 +1,114 @@
 [
-
     {
-
+        "id": 1,
         "title": "Insomniac",
-
-        "artist": "Green Day"
-
+        "artist": "Green Day",
+        "type": "Punk Rock",
+        "year": 1995
     },
-
     {
-
+        "id": 2,
         "title": "American Idiot",
-
-        "artist": "Green Day"
-
+        "artist": "Green Day",
+        "type": "Punk Rock",
+        "year": 2004
     },
-
     {
-
+        "id": 3,
         "title": "Conspiracy of One",
-
-        "artist": "Offspring"
-
+        "artist": "Offspring",
+        "type": "Punk Rock",
+        "year": 2000
     },
-
     {
-
-        "title": "Dead Silience",
-
-        "artist": "Billy Talent"
-
+        "id": 4,
+        "title": "Dead Silence",
+        "artist": "Billy Talent",
+        "type": "Alternative Rock",
+        "year": 2012
     },
-
     {
-
+        "id": 5,
         "title": "ANThology",
-
-        "artist": "Alien Ant Farm"
-
+        "artist": "Alien Ant Farm",
+        "type": "Alternative Metal",
+        "year": 2001
     },
-
     {
-
+        "id": 6,
         "title": "Enema of the State",
-
-        "artist": "Blink-182"
-
+        "artist": "Blink-182",
+        "type": "Pop Punk",
+        "year": 1999
     },
-
     {
-
+        "id": 7,
         "title": "Pennybridge Pioneers",
-
-        "artist": "Milencolin"
-
+        "artist": "Millencolin",
+        "type": "Punk Rock",
+        "year": 2000
     },
-
     {
-
+        "id": 8,
         "title": "Chuck",
-
-        "artist": "Sum 41"
-
+        "artist": "Sum 41",
+        "type": "Alternative Rock",
+        "year": 2004
     },
-
     {
-
+        "id": 9,
         "title": "The State",
-
-        "artist": "Nickelback"
-
+        "artist": "Nickelback",
+        "type": "Post-Grunge",
+        "year": 1998
     },
-
     {
-
+        "id": 10,
         "title": "Silver Side Up",
-
-        "artist": "Nickelback"
-
+        "artist": "Nickelback",
+        "type": "Post-Grunge",
+        "year": 2001
     },
-
     {
-
+        "id": 11,
         "title": "Fallen",
-
-        "artist": "Evenescence"
-
+        "artist": "Evanescence",
+        "type": "Alternative Metal",
+        "year": 2003
     },
-
     {
-
+        "id": 12,
         "title": "Scripted",
-
-        "artist": "Icon For Hire"
-
+        "artist": "Icon For Hire",
+        "type": "Alternative Rock",
+        "year": 2011
     },
-
     {
-
+        "id": 13,
         "title": "Icon For Hire",
-
-        "artist": "Icon For Hire"
-
+        "artist": "Icon For Hire",
+        "type": "Alternative Rock",
+        "year": 2013
     },
-
     {
-
+        "id": 14,
         "title": "You Can't Kill Us",
-
-        "artist": "Icon For Hire"
-
+        "artist": "Icon For Hire",
+        "type": "Alternative Rock",
+        "year": 2016
     },
-
     {
-
+        "id": 15,
         "title": "Sleeping With Ghosts",
-
-        "artist": "Placebo"
-
+        "artist": "Placebo",
+        "type": "Alternative Rock",
+        "year": 2003
     },
-
     {
-
+        "id": 16,
         "title": "Steal This Album",
-
-        "artist": "System of a Down"
-
+        "artist": "System of a Down",
+        "type": "Alternative Metal",
+        "year": 2002
     }
-
 ]

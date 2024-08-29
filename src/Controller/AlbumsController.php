@@ -28,7 +28,7 @@ class AlbumsController extends Controller
                 'albums' => $albums
             ]);
         }
-            public function form(Request $request, Response $response) {
+     public function form(Request $request, Response $response) {
             $albums = json_decode(file_get_contents(__DIR__.'/../../data/albums.json'), true);
             $query = $request->getParam('q');
 
@@ -43,5 +43,17 @@ class AlbumsController extends Controller
                 'albums' => $albums
             ]);
         }
+         public function details(Request $request, Response $response, $args = []) {
+        $albums = json_decode(file_get_contents(__DIR__.'/../../data/albums.json'), true);
+        $key = array_search($args['id'], array_column($albums, 'id'));
+
+        if ($key !== false) {
+            return $this->render($response, 'details.html', [
+                'album' => $albums[$key]  // Wrap the album data in 'album' key
+            ]);
+        }
+
+        return $response->withStatus(404)->write('Album not found');
+    }
   
 }
